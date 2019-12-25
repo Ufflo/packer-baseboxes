@@ -1,0 +1,8 @@
+/output-hyperv-iso
+/packer_cache
+/iso/*.iso
+/iso/*.ISO
+/.aptcache
+/*.box
+/*.ISO
+/*.iso
