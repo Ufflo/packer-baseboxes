@@ -3,8 +3,14 @@ Packer-built baseboxes
 
 ## Software versions
 Verified software versions for build components
-- Hyper-V (Windows 10, 10.0.18363.535)
-- Packer 1.5.1
+- Hyper-V (Windows 10, 10.0.18363.693)
+- Packer 1.5.4
+
+## Execution
+Exmaple: Building Ubuntu Server 18.04.3 artifact with default values
+```bash
+packer build ubuntu-server-18.04.3.json
+```
 
 ## Known Bugs
 - When running under Hyper-V:
